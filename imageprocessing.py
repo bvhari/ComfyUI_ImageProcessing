@@ -125,7 +125,7 @@ class SigmoidCorrection:
     def INPUT_TYPES(s):
         return {"required": {"images": ("IMAGE", ),
                              "cutoff": ("FLOAT", {"default": 0.5, "min": 0.0, "max": 1.0, "step": 0.01}),
-                             "gain": ("INT", {"default": 5, "min": 1, "max": 100, "step": 1}),
+                             "gain": ("FLOAT", {"default": 5.0, "min": 1.0, "max": 10.0, "step": 0.01}),
                              }}
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "sigmoid"
