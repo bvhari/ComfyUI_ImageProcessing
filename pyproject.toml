@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_imageprocessing"
+description = "ComfyUI custom nodes to apply various image processing techniques."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torch", "kornia"]
+
+[project.urls]
+Repository = "https://github.com/bvhari/ComfyUI_ImageProcessing"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_ImageProcessing"
+Icon = ""
