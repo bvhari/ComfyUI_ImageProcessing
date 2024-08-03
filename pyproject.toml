@@ -2,7 +2,7 @@
 name = "comfyui_imageprocessing"
 description = "ComfyUI custom nodes to apply various image processing techniques."
 version = "1.0.0"
-license = "GPL-3.0"
+license = { text = "GNU General Public License v3.0" }
 dependencies = ["torch", "kornia"]
 
 [project.urls]
